@@ -1,0 +1,13 @@
+Feature: Fetch all users
+
+  Scenario: Successfully fetch paginated users
+    Given the API is running
+    When I request users with page 1 and page size 10
+    Then the response status code should be 200
+    And the response should contain pagination keys
+
+  Scenario: Invalid page input
+    Given the API is running
+    When I request users with page "abc" and page size 10
+    Then the response status code should be 422
+    And the response should mention "page"

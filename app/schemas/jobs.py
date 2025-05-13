@@ -2,17 +2,17 @@ from pydantic import BaseModel
 from typing import List
 
 
-class UserData(BaseModel):
+class JobsData(BaseModel):
     id: int
-    name: str
-    email: str
-    role: str
+    title: str
+    company: str
+    location: str
 
-class UsersListResponse(BaseModel):
+class JobsListResponse(BaseModel):
     total: int
     page: int
     page_size: int
-    users: List[UserData]
+    jobs: List[JobsData]
 
 
     class Config:

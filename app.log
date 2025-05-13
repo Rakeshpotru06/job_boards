@@ -1,66 +1,53 @@
-2025-05-06 17:37:50,088 - INFO - Fetching users with skip=0, limit=1000000, name=None, email=None, age=None
-2025-05-06 17:38:14,594 - INFO - Fetched 1000000 users in 24.506 seconds.
-2025-05-06 17:46:48,997 - INFO - Fetching users with skip=0, limit=1000000, name=None, email=None, age=None
-2025-05-06 17:47:15,762 - INFO - Fetched 1000000 users in 26.765 seconds.
-2025-05-06 17:51:27,272 - INFO - Fetching users with skip=0, limit=1000000, name=None, email=None, age=None
-2025-05-06 17:51:47,633 - INFO - Fetched 1000000 users in 20.361 seconds.
-2025-05-06 17:55:10,975 - INFO - Fetching users with skip=0, limit=1000000, name=None, email=None, age=None
-2025-05-06 17:55:40,527 - INFO - Fetched 1000000 users in 29.552 seconds.
-2025-05-06 18:10:21,028 - INFO - Fetching users with skip=0, limit=1000000, name=None, email=None, age=None
-2025-05-06 18:10:34,714 - INFO - Fetched 1000000 users in 13.686 seconds.
-2025-05-06 18:30:46,881 - INFO - Fetching users with skip=0, limit=1000000, name=None, email=None, age=None
-2025-05-06 18:31:05,928 - INFO - Fetched 1000000 users in 19.048 seconds.
-2025-05-06 18:38:18,678 - INFO - Fetching users with skip=0, limit=1000000, name=None, email=None, age=None
-2025-05-06 18:38:32,750 - INFO - Fetched 1000000 users in 14.072 seconds.
-2025-05-06 18:40:17,888 - INFO - Fetching users with skip=0, limit=1000000, name=None, email=None, age=None
-2025-05-06 18:40:33,044 - INFO - Fetched 1000000 users in 15.156 seconds.
-2025-05-06 18:42:06,209 - INFO - Fetching users with skip=0, limit=1000000, name=None, email=None, age=None
-2025-05-06 18:42:23,949 - INFO - Fetched 1000000 users in 17.740 seconds.
-2025-05-06 18:43:53,232 - INFO - Fetching users with skip=0, limit=1000000, name=None, email=None, age=None
-2025-05-06 18:44:11,200 - INFO - Fetched 1000000 users in 17.968 seconds.
-2025-05-06 18:45:47,216 - INFO - Fetching users with skip=0, limit=1000000, name=None, email=None, age=None
-2025-05-06 18:45:57,281 - INFO - Fetching users from DB with params: {'skip': 0, 'limit': 1000000, 'name': None, 'email': None, 'age': None}
-2025-05-06 18:46:04,210 - INFO - Fetched 1000000 users in 16.993 seconds.
-2025-05-06 18:48:26,442 - INFO - Fetched 1000000 users in 149.155 seconds.
-2025-05-06 18:48:33,606 - INFO - Fetching users from DB with params: {'skip': 0, 'limit': 1000000, 'name': None, 'email': None, 'age': None}
-2025-05-06 18:48:49,475 - ERROR - Error in fetch_all_users: You must set the config attribute `from_attributes=True` to use from_orm
-2025-05-06 18:48:49,476 - ERROR - Error during DB session: 500: Could not fetch users
-2025-05-06 18:49:30,278 - INFO - Fetching users from DB with params: {'skip': 0, 'limit': 1000000, 'name': None, 'email': None, 'age': None}
-2025-05-06 18:49:45,543 - ERROR - Error in fetch_all_users: You must set the config attribute `from_attributes=True` to use from_orm
-2025-05-06 18:49:45,544 - ERROR - Error during DB session: 500: Could not fetch users
-2025-05-06 18:50:23,879 - INFO - Fetching users from DB with params: {'skip': 0, 'limit': 1000000, 'name': None, 'email': None, 'age': None}
-2025-05-06 18:50:39,432 - ERROR - Error in fetch_all_users: You must set the config attribute `from_attributes=True` to use from_orm
-2025-05-06 18:50:39,432 - ERROR - Error during DB session: 500: Could not fetch users
-2025-05-06 18:51:18,554 - INFO - Fetching users from DB with params: {'skip': 0, 'limit': 1000000, 'name': None, 'email': None, 'age': None}
-2025-05-06 18:55:02,861 - INFO - Fetched 1000000 users in 224.308 seconds.
-2025-05-06 18:57:53,288 - INFO - Returning users from cache
-2025-05-06 19:08:52,792 - INFO - Fetching users from DB with params: {'skip': 0, 'limit': 1000000, 'name': None, 'email': None, 'age': None}
-2025-05-06 19:09:08,277 - INFO - Fetched 1000000 users in 15.486 seconds.
-2025-05-06 19:10:33,098 - INFO - Returning users from cache
-2025-05-06 19:12:08,994 - INFO - Fetching users from DB with params: {'skip': 0, 'limit': 1000000, 'name': None, 'email': None, 'age': None}
-2025-05-06 19:12:24,825 - INFO - Fetched 1000000 users in 15.831 seconds.
-2025-05-06 19:18:04,519 - ERROR - Error during DB session: object of type 'NoneType' has no len()
-2025-05-06 19:18:04,526 - ERROR - Unhandled error: object of type 'NoneType' has no len()
-2025-05-06 19:18:34,111 - INFO - Fetching users from DB with params: {'skip': 0, 'limit': 1000000, 'name': None, 'email': None, 'age': None}
-2025-05-06 19:18:55,161 - INFO - Fetched 1000000 users in 21.050 seconds.
-2025-05-06 19:22:03,524 - INFO - Fetching users from DB with params: {'skip': 0, 'limit': 1000000, 'name': 'User_7734', 'email': None, 'age': None}
-2025-05-06 19:22:21,019 - INFO - Fetched 111 users in 17.503 seconds.
-2025-05-06 19:22:43,261 - INFO - Fetching users from DB with params: {'skip': 0, 'limit': 1000000, 'name': 'User_773', 'email': None, 'age': None}
-2025-05-06 19:22:59,869 - INFO - Fetched 1111 users in 16.608 seconds.
-2025-05-06 19:23:26,129 - INFO - Fetching users from DB with params: {'skip': 0, 'limit': 1000000, 'name': 'User_7739', 'email': None, 'age': None}
-2025-05-06 19:23:42,202 - INFO - Fetched 111 users in 16.073 seconds.
-2025-05-06 19:23:42,211 - INFO - Fetching users from DB with params: {'skip': 0, 'limit': 1000000, 'name': 'User_77399', 'email': None, 'age': None}
-2025-05-06 19:23:58,509 - INFO - Fetched 11 users in 16.298 seconds.
-2025-05-06 19:30:42,179 - INFO - Returning users from cache
-2025-05-06 19:30:44,511 - INFO - Returning users from cache
-2025-05-06 19:30:49,313 - INFO - Fetching users from DB with params: {'skip': 0, 'limit': 1000000, 'name': 'User_77398', 'email': None, 'age': None}
-2025-05-06 19:31:05,377 - INFO - Fetched 11 users in 16.064 seconds.
-2025-05-06 19:31:54,588 - INFO - Returning users from cache
-2025-05-06 19:31:59,357 - INFO - Returning users from cache
-2025-05-06 19:32:08,276 - INFO - Returning users from cache
-2025-05-06 19:32:18,882 - INFO - Fetching users from DB with params: {'skip': 0, 'limit': 1000000, 'name': 'User_9999', 'email': None, 'age': None}
-2025-05-06 19:32:36,252 - INFO - Fetched 111 users in 17.370 seconds.
-2025-05-06 19:32:51,260 - INFO - Returning users from cache
-2025-05-06 19:32:53,492 - INFO - Returning users from cache
-2025-05-06 19:32:57,047 - INFO - Fetching users from DB with params: {'skip': 0, 'limit': 1000000, 'name': 'User_999', 'email': None, 'age': None}
-2025-05-06 19:33:13,580 - INFO - Fetched 1111 users in 16.533 seconds.
+2025-05-12 16:19:46,812 - DEBUG - Looking up time zone info from registry
+2025-05-12 16:28:38,262 - DEBUG - Looking up time zone info from registry
+2025-05-12 16:28:46,245 - INFO - __Jobs Data fetch started at 16:28:46
+2025-05-12 16:28:46,245 - INFO - No cache found. Fetching from DB
+2025-05-12 16:28:46,245 - INFO - Data fetch started from Database
+2025-05-12 16:32:53,154 - INFO - Data fetch completed
+2025-05-12 16:33:33,068 - INFO - Data fetch and saved to cache completed in 286.820 seconds
+2025-05-12 16:34:06,559 - INFO - Fetching jobs from DB completed
+2025-05-12 16:34:06,560 - INFO - data fetched in 320.3143
+2025-05-12 16:34:08,209 - INFO - __ Jobs Data fetch ended at 16:34:08
+2025-05-12 16:37:16,322 - INFO - __Jobs Data fetch started at 16:37:16
+2025-05-12 16:37:16,323 - INFO - Returning jobs from cache
+2025-05-12 16:37:24,840 - INFO - data fetched in 8.5178
+2025-05-12 16:37:26,169 - INFO - __ Jobs Data fetch ended at 16:37:26
+2025-05-12 16:37:30,221 - INFO - __Jobs Data fetch started at 16:37:30
+2025-05-12 16:37:30,221 - INFO - Returning jobs from cache
+2025-05-12 16:37:39,134 - INFO - data fetched in 8.9132
+2025-05-12 16:37:40,362 - INFO - __ Jobs Data fetch ended at 16:37:40
+2025-05-12 16:38:09,680 - INFO - __Jobs Data fetch started at 16:38:09
+2025-05-12 16:38:09,680 - INFO - Returning jobs from cache
+2025-05-12 16:38:19,045 - INFO - data fetched in 9.3655
+2025-05-12 16:38:20,287 - INFO - __ Jobs Data fetch ended at 16:38:20
+2025-05-12 16:39:59,307 - INFO - __Jobs Data fetch started at 16:39:59
+2025-05-12 16:39:59,307 - INFO - Returning jobs from cache
+2025-05-12 16:40:08,005 - INFO - data fetched in 8.6980
+2025-05-12 16:40:09,210 - INFO - __ Jobs Data fetch ended at 16:40:09
+2025-05-12 16:41:10,918 - INFO - __Jobs Data fetch started at 16:41:10
+2025-05-12 16:41:10,918 - INFO - Returning jobs from cache
+2025-05-12 16:41:19,562 - INFO - data fetched in 8.6436
+2025-05-12 16:41:20,809 - INFO - __ Jobs Data fetch ended at 16:41:20
+2025-05-12 17:32:35,331 - INFO - __Jobs Data fetch started at 17:32:35
+2025-05-12 17:32:35,331 - INFO - No cache found. Fetching from DB
+2025-05-12 17:32:35,331 - INFO - Data fetch started from Database
+2025-05-12 17:40:48,236 - INFO - Data fetch completed
+2025-05-12 17:41:42,670 - INFO - Data fetch and saved to cache completed in 547.334 seconds
+2025-05-12 17:42:40,432 - INFO - Fetching jobs from DB completed
+2025-05-12 17:42:40,432 - INFO - data fetched in 605.1016
+2025-05-12 17:42:41,841 - INFO - __ Jobs Data fetch ended at 17:42:41
+2025-05-12 17:42:48,331 - DEBUG - Looking up time zone info from registry
+2025-05-12 17:45:15,787 - DEBUG - Looking up time zone info from registry
+2025-05-12 17:46:02,225 - DEBUG - Looking up time zone info from registry
+2025-05-12 17:48:47,833 - DEBUG - Looking up time zone info from registry
+2025-05-12 18:21:00,328 - DEBUG - Looking up time zone info from registry
+2025-05-12 18:27:23,675 - DEBUG - Looking up time zone info from registry
+2025-05-13 10:38:42,285 - INFO - __Jobs Data fetch started at 10:38:42
+2025-05-13 10:38:42,286 - INFO - No cache found. Fetching from DB
+2025-05-13 10:38:42,287 - INFO - Data fetch started from Database
+2025-05-13 10:51:44,005 - INFO - Data fetch completed
+2025-05-13 10:53:07,937 - INFO - Data fetch and saved to cache completed in 865.639 seconds
+2025-05-13 10:54:36,405 - INFO - Fetching jobs from DB completed
+2025-05-13 10:54:36,406 - INFO - data fetched in 954.1188
+2025-05-13 10:54:38,268 - INFO - __ Jobs Data fetch ended at 10:54:38
+2025-05-13 10:54:45,243 - DEBUG - Looking up time zone info from registry

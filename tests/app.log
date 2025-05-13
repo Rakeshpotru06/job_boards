@@ -1,0 +1,7 @@
+2025-05-08 18:57:07,593 - INFO - [USER_FETCH_START] User data fetch started at 18:57:07
+2025-05-08 18:57:07,593 - INFO - [USER_CACHE_MISS] No cache found. Fetching from DB
+2025-05-08 18:57:07,594 - INFO - Data fetch started from Database
+2025-05-08 18:57:25,371 - INFO - Data fetch and saved to cache completed in 17.778 seconds
+2025-05-08 18:57:26,727 - INFO - [USER_FETCH_TIME] Data fetched in 19.1336 seconds
+2025-05-08 18:57:26,857 - INFO - [USER_FETCH_SUCCESS] Successfully fetched user data at 18:57:26
+2025-05-08 18:57:26,876 - INFO - HTTP Request: GET http://testserver/users/?page=1&page_size=100 "HTTP/1.1 200 OK"

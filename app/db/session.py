@@ -3,6 +3,10 @@ from sqlalchemy.orm import sessionmaker
 import logging
 
 SQLALCHEMY_DATABASE_URL = "postgresql://newmek_job:w7z2DXWhK$hlTKg@192.168.2.75/job_board"
+# SQLALCHEMY_DATABASE_URL = "postgresql://postgres:9100340842@localhost:5432/job_boards"
+# SQLALCHEMY_DATABASE_URL = "postgresql://postgres:9100340842@localhost:5432/job_boards"
+
+
 try:
     engine = create_engine(SQLALCHEMY_DATABASE_URL, pool_pre_ping=True)
     SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
